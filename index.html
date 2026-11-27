@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blogify | Stories & Shopping</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">Blogify<span>.</span></a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Home</a>
+                <a href="blog.html">Blogs</a>
+                <a href="shop.html">Shop</a>
+                <a href="#categories">Categories</a>
+                <a href="about.html">About</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="search-btn" aria-label="Search">⌕</button>
+                <a href="cart.html" class="cart-btn">
+                    🛒 <span id="cartCount">0</span>
+                </a>
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+                    ☰
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+
+            <div class="hero-content">
+                <span class="eyebrow">YOUR DAILY DOSE OF INSPIRATION</span>
+
+                <h1>
+                    Stories that inspire.
+                    <span>Products you love.</span>
+                </h1>
+
+                <p>
+                    Discover thoughtful articles, explore creative ideas,
+                    and shop products that make your everyday life better.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#blogs" class="btn btn-primary">
+                        Explore Stories →
+                    </a>
+
+                    <a href="#shop" class="btn btn-outline">
+                        Shop Collection
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>120+</h3>
+                        <p>Articles</p>
+                    </div>
+                    <div>
+                        <h3>50+</h3>
+                        <p>Products</p>
+                    </div>
+                    <div>
+                        <h3>10k+</h3>
+                        <p>Readers</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=1000"
+                    alt="Beautiful lifestyle workspace"
+                >
+
+                <div class="floating-card">
+                    <span>✦ EDITOR'S PICK</span>
+                    <h4>Find inspiration in everyday life.</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories section container" id="categories">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">EXPLORE MORE</span>
+                <h2>Browse Categories</h2>
+            </div>
+            <a href="#blogs" class="text-link">View all →</a>
+        </div>
+
+        <div class="category-grid">
+            <a href="#blogs" class="category-card">
+                <span>✍️</span>
+                <h3>Lifestyle</h3>
+            </a>
+
+            <a href="#blogs" class="category-card">
+                <span>💻</span>
+                <h3>Technology</h3>
+            </a>
+
+            <a href="#blogs" class="category-card">
+                <span>🎨</span>
+                <h3>Creativity</h3>
+            </a>
+
+            <a href="#shop" class="category-card">
+                <span>🛍️</span>
+                <h3>Shopping</h3>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Featured Blogs -->
+    <section class="section container" id="blogs">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">THE LATEST STORIES</span>
+                <h2>Featured Articles</h2>
+                <p>Ideas, insights and stories worth reading.</p>
+            </div>
+
+            <a href="blog.html" class="text-link">View all articles →</a>
+        </div>
+
+        <div class="blog-grid" id="blogContainer">
+            <!-- JavaScript will render blogs here -->
+        </div>
+
+    </section>
+
+    <!-- Products -->
+    <section class="products-section section" id="shop">
+        <div class="container">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">CURATED FOR YOU</span>
+                    <h2>Trending Products</h2>
+                    <p>Discover things that make life beautiful.</p>
+                </div>
+
+                <a href="shop.html" class="text-link">Shop all →</a>
+            </div>
+
+            <div class="product-grid" id="productContainer">
+                <!-- JavaScript will render products here -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section section container" id="about">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900"
+                alt="Creative workspace"
+            >
+        </div>
+
+        <div class="about-content">
+            <span class="eyebrow">ABOUT BLOGIFY</span>
+            <h2>A place for curious minds and creative souls.</h2>
+
+            <p>
+                Blogify brings together inspiring stories and carefully
+                selected products. Our goal is to make discovering,
+                learning and shopping a beautiful experience.
+            </p>
+
+            <a href="about.html" class="btn btn-primary">
+                Discover Our Story →
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container newsletter-content">
+            <span class="eyebrow">STAY INSPIRED</span>
+            <h2>Good things come to your inbox.</h2>
+            <p>Get our latest stories, new arrivals and special updates.</p>
+
+            <form id="newsletterForm">
+                <input
+                    type="email"
+                    id="newsletterEmail"
+                    placeholder="Enter your email address"
+                    required
+                >
+                <button type="submit">Subscribe →</button>
+            </form>
+
+            <small id="newsletterMessage"></small>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Blogify<span>.</span></a>
+                <p>
+                    Discover stories, explore ideas and shop
+                    products you love.
+                </p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="#blogs">Blogs</a>
+                <a href="#shop">Shop</a>
+                <a href="#categories">Categories</a>
+            </div>
+
+            <div>
+                <h3>Company</h3>
+                <a href="#about">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom container">
+            <p>© 2026 Blogify. All rights reserved.</p>
+            <p>Made with ♥ for creative minds.</p>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
